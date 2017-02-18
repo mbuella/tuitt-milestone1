@@ -1,0 +1,541 @@
+body {
+    background-color: #eee;	
+    color: brown;
+    font-family: "Montserrat", Arial, serif;
+}
+
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+nav.navbar {
+	margin-bottom: 0;
+	background-color: brown;
+	top: 0;
+	color: pink;
+	border: none;
+	opacity: 0.8;
+	width: 100%;
+}
+
+.navbar-header > button {
+	margin-left: 10px;
+}
+
+.navbar-toggle {
+	border: none;
+}
+
+.jumbotron.main-post {	
+    margin: 0;
+	height: auto;
+    padding-top: 50%;
+    padding-bottom: 0;
+}
+
+.main-post > div {
+	/*background: beige;
+	opacity: 0.8;*/	
+    background-color: rgba(245, 245, 220, 0.8);
+	width: 100%;
+}
+
+.main-post > div > div {
+	padding: 20px;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.categories.container,
+.archives.container {
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+.categories.container h2,
+.archives.container h2,
+.footer-1.container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.jumbotron.main-post {	
+    margin: 0;
+}
+
+.main-post h1 {
+	margin-top: 0;
+}
+
+.main-post p {
+	margin-top: 5px;
+	font-size: 1em;
+}
+
+.main-post div div {/*
+	background: beige;*/
+}
+
+div#banner {
+	height: 250px;
+	background: url(../images/sculpture-small.jpg)
+				no-repeat
+				bottom center/cover;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.posts {
+	background: lightgrey;	
+	padding-top: 20px;	
+	padding-bottom: 20px;
+}
+
+
+.post {
+	padding-bottom: 20px;
+
+}
+
+.load-more hr {
+	margin-top: 0;
+	border: 1px solid white ;
+}
+
+.load-more button.btn {
+	width: 100%;
+}
+
+.post img {
+	width: 250px;
+	display: inline;
+}
+
+.categories.container,
+.archives.container {
+    padding: 0 40px;
+    padding-bottom: 20px;
+}
+
+.categories.container {
+	background-color: cornsilk;
+}
+
+.categories > div div {
+	position: relative;
+	height: 100px;
+}
+
+.categories > div div span,
+.archives > div > div span {
+	color: white;
+	text-shadow: 1px 1px black;
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+}
+
+div.cat-img {
+	background-position: 50% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.archives {
+	background-color: white;
+}
+
+.archives > div {
+	max-width: 300px;
+	margin: 0 auto;
+    padding: 0;	
+}
+
+.archives > hr {
+	margin: 0;
+	border: 1.5px solid grey;
+}
+
+.archives > div > div {
+	display: block;
+	position: relative;
+	width: 75px;
+	height: 75px;
+	margin: 2px;
+	border: 1px solid black;
+	float: left;
+}
+
+.footer-1 {
+	background-color: pink;
+	padding: 20px;
+}
+
+.container > .row {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.footer-1 img.img-circle.img-responsive {
+	width: 200px;
+	display: inline;
+	margin: 0 auto;
+}
+
+.footer-1 > div > div a {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.footer-1 > div > div .fa {
+	color: brown;
+}
+
+
+
+.footer-2 {
+	padding: 20px;
+	background: brown;
+	color: white;
+}
+
+.footer-2 div {
+	width: 150px;
+	margin: 0 auto;
+}
+
+
+/*Page 2 styling*/
+
+.main-post-left {
+	background-color: lightgrey;
+}
+
+.main-post-left > * {
+	padding: 10px;
+}
+
+.banner-img {
+	width: 100%;
+	height: 300px;
+	background: url(../images/sculpture-small.jpg)
+					no-repeat
+					bottom center/cover;";
+	float: right;
+}
+
+.article {
+	border: none;
+}
+
+.article h1,
+.article-body h2 {
+	margin: 20px 0;
+}
+
+.article h1 {
+	margin-top: 0;
+}
+
+.article-body h2 {
+	margin-top: 10px;
+	text-align: center;
+}
+.article-body p {
+	margin: 10px 0;
+}
+
+.article-body {		
+    background-color: white;
+	padding-bottom: 20px;
+}
+
+.comment-form-heading > div > a {
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+.comment-form form.form-horizontal {
+	margin: 0 10px;
+}
+
+.comment-form input, textarea {
+	margin-bottom: 10px;
+}
+
+div.comment-form-heading {
+	text-align: center;
+
+}
+
+div.comment-form-heading h2 {
+	margin: 15px 0;
+}
+
+.main-post-right {
+	padding-top: 20px;
+	border: none;
+}
+
+.main-post-right h4 {
+	border-bottom: 2px solid;
+	width: 50%;
+	margin-left: 20px;
+}
+
+ul.list-posts {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+ul.list-posts li {
+	margin-bottom: 5px;
+}
+
+ul.list-posts .img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid;
+	float: left;
+	margin-right: 8px;
+}
+
+ul.list-posts p {
+	width: 70%;
+	float: left;
+}
+
+
+/*Mobile display*/
+@media only screen and (max-width: 768px){
+	/*Center brand name when in mobile display*/
+	a.navbar-brand {
+	  transform: translateX(-50%);
+	  left: 50%;
+	  position: absolute;
+	}
+	#myNavbar .navbar-form {
+		margin: 0;
+		border: 0;
+	}
+}
+
+
+/*Tablet display*/
+@media only screen and (min-width: 768px){
+	div.container,
+	.container.article-section {
+		max-width: 700px;		
+	}
+
+	div.main-post.jumbotron {
+		margin-bottom: 20px;
+	}
+
+	.main-post > div {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+
+	.categories.container,
+	.archives.container {
+	    padding: 0 40px;
+	    padding-bottom: 30px;
+	}
+
+	.footer-1.container {
+		margin-bottom: 0;	
+	    padding-left: 40px;
+	    padding-right: 40px;	
+	}
+
+	.footer-1.container div > div  h2 {
+		font-size: 2.5em;
+	}
+
+	.footer-1.container div > div  p {
+		text-align: left;
+	}
+
+	.jumbotron.main-post {
+		padding-bottom: 40px;
+		padding-top: 30%;
+	}
+
+	.main-post > div > div {		
+	    margin: 0 auto;
+	    max-width: initial;
+	}
+
+	.load-more button.btn {
+		width: initial;
+	}
+
+	.posts.container {
+		padding: 20px;
+	}
+
+	.post img.img-responsive {
+		width: 300px;
+	}
+
+	.categories {
+		background-color: violet;
+	}
+
+	.categories > div {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.categories > div div.col-sm-6 {
+		height: 120px;
+	    background-position: 50% 50%;
+	    background-size: cover;/*
+	    background-image: linear-gradient(to right,
+	    						rgba(0, 0, 0, 0.498039) 5%,
+	    						rgba(255, 255, 255, 0.247059) 20%,
+	    						rgba(255, 255, 255, 0.247059) 80%,
+	    						rgba(0, 0, 0, 0.498039) 95%);*/
+	}
+
+
+	.archives > div {
+		max-width: initial;
+	}
+
+	div.archives > div > div {		
+	    width: 125px;
+	    height: 125px;
+	    margin: 5px;
+	}
+
+	.container > .row {
+		max-width: 100%;
+	}
+
+	div.footer-1 {	
+	    margin-bottom: 40px;
+	}
+
+	div.my-img {		
+	    height: 200px;
+	    padding: 5px 0
+	}
+
+	div.footer-2 div {
+		width: 100%;
+	}
+
+
+	/*page 2 styling*/
+
+	.container.article-section {
+		width: 700px;
+		margin-top: 70px;
+	}
+
+	.main-post-left .article .article-date {
+		text-align: right;
+	}
+
+	.main-post-left .article-body {		
+	    margin-left: 10px;
+	    margin-right: 10px;
+    	margin-top: 20px;
+	}
+
+	.main-post-left .comment-form {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.comment-form div.comment-form-heading {
+		padding: 0;
+    	margin: 15px 0;
+    	text-align: left;
+	}
+	.comment-form div.comment-form-heading + .comment-form-heading {
+		text-align: right;
+	}
+
+}
+/*
+set the width of the search bar
+@media only screen
+and (min-width: 961px)
+and (max-width: 1032px) {
+	.navbar-form .input-group {
+    	width: 150px;
+	}
+}*/
+
+/*Desktop display*/
+@media only screen and (min-width: 992px){
+	.main-post > div,
+	div.container,
+	.container.article-section {
+		width: 900px;		
+	}
+
+	.container > .row {/*
+		max-width: 100%;*/
+	}
+
+	div.jumbotron.main-post {
+		padding-top: 15%;
+	}
+	.main-post > div {		
+		max-width: 700px;
+	    margin: 0 auto;
+	    background-color: initial;
+	}
+
+	.main-post > div > div {
+		width: 50%;
+		background-color: rgba(245, 245, 220, 0.8);
+    	margin-right: 0;
+	}
+	.main-post h1 {
+		font-size: 2em;
+	}
+	.categories.container,
+	.archives.container {
+	    padding: 0 40px;
+	    padding-bottom: 30px;
+	}
+
+	div.my-img {/*
+		padding: 25px 0;*/
+	}
+
+	.footer-1.container .row img  {	
+		margin-right: 0;
+	}
+
+	.footer-1.container .col-md-2 {
+		margin-top: 25px;
+	}
+
+	div.row ul.list-posts .img {
+    	width: 50px;
+    	height: 50px;
+	}
+
+	div.sm-icons i {
+		height: 45px;
+	} 
+
+	.main-post-left .article {
+		padding-top: 20px;
+	}
+	.main-post-left .article-body {
+		margin-top: 0px;
+	}
+}
